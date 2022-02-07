@@ -1,0 +1,13 @@
+{
+    "short_name": "Wordle",
+    "name": "Wordle - A daily word game",
+   
+    "start_url": "/",
+    "background_color": "##FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+   
+    "description": "Wordle - A daily word game"
+   
+  }
