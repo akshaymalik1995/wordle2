@@ -2,7 +2,7 @@
     "short_name": "Wordle",
     "name": "Wordle - A daily word game",
    
-    "start_url": "/",
+    "start_url": "https://akshaymalik1995.github.io/wordle2/",
     "background_color": "##FFFFFF",
     "display": "standalone",
     "scope": "/",
