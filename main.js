@@ -141,7 +141,7 @@ enterButton.addEventListener("click", event => {
 
             document.querySelector(".game-won").classList.remove("d-none")
         }
-        if (focusedRow == 6) {
+        if (focusedRow == 6 & successCount !== 5) {
             document.querySelector(".keyboard").classList.add("d-none")
             document.querySelector(".game-lost-text").innerText = `The word was ${rightWord.toUpperCase()}`
             document.querySelector(".game-lost").classList.remove("d-none")
