@@ -3,8 +3,8 @@ document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
   });
 
-// const rightWord = words[Math.floor(Math.random() * words.length)].toUpperCase()
-const rightWord = "SKILL"
+const rightWord = words[Math.floor(Math.random() * words.length)].toUpperCase()
+// const rightWord = "SKILL"
 function matchWord(rightWord, guessWord) {
 
     const letterColorsList = ["", "", "", "", ""]
