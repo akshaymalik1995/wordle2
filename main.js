@@ -3,8 +3,8 @@ document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
   });
 
-const rightWord = words[Math.floor(Math.random() * words.length)].toUpperCase()
-// const rightWord = "SKILL"
+// const rightWord = words[Math.floor(Math.random() * words.length)].toUpperCase()
+const rightWord = "SKILL"
 function matchWord(rightWord, guessWord) {
 
     const letterColorsList = ["", "", "", "", ""]
@@ -136,12 +136,12 @@ enterButton.addEventListener("click", event => {
         })
 
 
-        if (successCount === 5 & focusedRow < 7) {
+        if (successCount === 5 & focusedRow < 8) {
             document.querySelector(".keyboard").classList.add("d-none")
 
             document.querySelector(".game-won").classList.remove("d-none")
         }
-        if (focusedRow == 6 & successCount !== 5) {
+        if (focusedRow == 7 & successCount !== 5) {
             document.querySelector(".keyboard").classList.add("d-none")
             document.querySelector(".game-lost-text").innerText = `The word was ${rightWord.toUpperCase()}`
             document.querySelector(".game-lost").classList.remove("d-none")
